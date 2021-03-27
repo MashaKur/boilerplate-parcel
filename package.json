@@ -2,19 +2,23 @@
   "name": "boilerplate-parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MashaKur/boilerplate-parcel.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Masha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MashaKur/boilerplate-parcel/issues"
   },
-  "homepage": "https://github.com/MashaKur/boilerplate-parcel#readme"
+  "homepage": "https://github.com/MashaKur/boilerplate-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
